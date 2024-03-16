@@ -1,6 +1,31 @@
 body {
     background-color: #E6E6FA; 
-    color: #663399;
+    color: #bd36a9;
     font-family: Arial;
     margin: 0px;
+    padding: 0px;
+    
+}
+header {
+    background-color: #f4cdff; 
+    color: #6e2b52;
+    font-family: Arial;
+    margin: 00px;
+    padding: 15px;
+}
+main {
+    color: #2a2769;
+    font-family: Arial;
+    margin: 20px;
+    padding: 00px;
+    font-size: 14pt;
+}
+footer {
+    background-color: #f4cdff; 
+    color: #982175;
+    font-family: Arial;
+    margin: 00px;
+    padding: 15px;
+    font-style: italic; 
+    text-align: right;
 }
