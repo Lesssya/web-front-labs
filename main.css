@@ -29,7 +29,11 @@ footer {
     font-style: italic; 
     text-align: right;
 }
-
+a {
+    color: rgb(7, 3, 254);
+    text-decoration: none;
+    transition: 1s 2s;
+}
 a:link {
     color: rgb(255, 162, 0);
     text-decoration: none;
