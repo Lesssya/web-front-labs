@@ -29,3 +29,23 @@ footer {
     font-style: italic; 
     text-align: right;
 }
+
+a:link {
+    color: rgb(255, 162, 0);
+    text-decoration: none;
+    
+}
+a:visited {
+    color: rgb(122, 1, 159);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+a:active {
+    color: black;
+    opacity: 0.3;
+}
