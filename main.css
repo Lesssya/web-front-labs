@@ -16,7 +16,7 @@ header {
 main {
     color: #2a2769;
     font-family: Arial;
-    margin: 20px;
+    margin: 10px 20px 45px;
     padding: 00px;
     font-size: 14pt;
 }
@@ -28,6 +28,11 @@ footer {
     padding: 15px;
     font-style: italic; 
     text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
 }
 a {
     color: rgb(7, 3, 254);
