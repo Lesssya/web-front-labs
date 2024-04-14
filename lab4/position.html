@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Позиционирование</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon-32x32.png">
+    <link rel="icon" href="../favicon-48x48.ico">
+    <style>
+        div {
+            width: 300px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            background-color: white;
+            border: 1px dotted rgb(0, 141, 0);
+            margin: 15px;
+            color: rgb(187, 0, 0);
+            position: relative;
+            display: block;
+            z-index: 1;
+        }
+        .position-relative {
+            position: relative;
+            display: block;
+            left: 140px;
+            top: -127px;
+            z-index: 0;
+        }
+        .position-relative:hover {
+            position: relative;
+            left: 140px;
+            top: -127px;
+            display: block;
+            z-index: 2;
+        }
+        .position-absolute {
+            position: absolute;
+            left: 300px;
+        }
+        .position-absolute:hover {
+            position: absolute;
+            left: 300px;
+            transform: scale(1.1);
+            background-color: #9dc9a2;
+            box-shadow: 0 0 15px #00880580
+        }
+    </style>
+</head>
+<body>
+    <header>
+        НГТУ, ФБ, Лабораторая работа 4
+    </header>
+
+    <main>
+        <div>static</div>
+        <div>static</div>
+        <div class="position-relative">relative</div>
+        <div>static</div>
+        <div>static</div>
+        <div class="position-absolute">absolute</div>
+        <div>static</div>
+        <div>static</div>
+        <div>static</div>
+        <div>static</div>
+    </main>
+
+    <footer>
+        &copy; Занозина Олеся, ФБИ-23, 2 курс, 2024
+    </footer>
+</body>
+</html>
