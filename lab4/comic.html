@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комикс</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon-32x32.png">
+    <link rel="icon" href="../favicon-48x48.ico">
+    <style>
+        .photo {
+            height: 700px;
+            position: relative;
+        }
+        .cloud div {
+            display: none;
+        }
+        .photo:hover+.cloud div {
+            display: block;
+        }
+        .cloud1 {
+            width: 200px;
+            height: 100px;
+            left: 350px;
+            top: -650px;
+            border-radius: 100px/50px;
+            bottom: 440px;
+            background-color: white;
+            border: 1px dotted rgb(141, 0, 101);
+            position: relative;
+            z-index: 1;
+        }
+        .cloud2 {
+            width: 120px;
+            height: 60px;
+            left: 320px;
+            top: -670px;
+            border-radius: 100px/50px;
+            bottom: 480px;
+            background-color: white;
+            border: 1px dotted rgb(141, 0, 101);
+            position: relative;
+            z-index: 1;
+        }
+        .cloud3 {
+            width: 80px;
+            height: 40px;
+            left: 300px;
+            top: -680px;
+            border-radius: 100px/50px;
+            bottom: 480px;
+            background-color: white;
+            border: 1px dotted rgb(141, 0, 101);
+            position: relative;
+            z-index: 1;
+        }
+        .cloud4 {
+            width: 50px;
+            height: 25px;
+            left: 285px;
+            top: -685px;
+            border-radius: 100px/50px;
+            bottom: 480px;
+            background-color: white;
+            border: 1px dotted rgb(141, 0, 101);
+            position: relative;
+            z-index: 1;
+        }
+        p {
+            text-align: center;
+            font-size: 16px;
+            margin-top: 32px;
+            color: rgb(141, 0, 101);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        НГТУ, ФБ, Лабораторная работа 4
+    </header>
+
+    <main>
+        <img class="photo" src="cat.jpeg" height="700">
+
+        <div class="cloud">
+            <div class="cloud1"><p>Я невыспыш, но я сделала эту лабу!</p></div>
+            <div class="cloud2"></div>
+            <div class="cloud3"></div>
+            <div class="cloud4"></div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; Занозина Олеся, ФБИ-23, 2 курс, 2024
+    </footer>
+</body>
+</html>
