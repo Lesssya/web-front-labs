@@ -16,7 +16,7 @@ header {
 main {
     color: #2a2769;
     font-family: Arial;
-    margin: 10px 20px 45px;
+    margin: 10px 20px 60px;
     padding: 00px;
     font-size: 14pt;
 }
@@ -40,12 +40,12 @@ a {
     transition: 1s 2s;
 }
 a:link {
-    color: rgb(255, 162, 0);
+    color: rgb(122, 1, 159);
     text-decoration: none;
     
 }
 a:visited {
-    color: rgb(122, 1, 159);
+    color: rgb(255, 162, 0);
     text-decoration: underline;
     transition: 0.3s;
 }
